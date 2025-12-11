@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1A1A1D;
+}
+
+main {
+  width: 80vmin;
+  height: 80vmin;
+  position: relative;
+
+  .dashed-x {
+    top: 50%;
+    width: 100%;
+    transform: none;
+    position: absolute;
+    border-top: 0.2rem dashed #fff;
+  }
+
+  .dashed-y {
+    top: 50%;
+    width: 100%;
+    rotate: 90deg;
+    transform: none;
+    position: absolute;
+    border-top: 0.2rem dashed #fff;
+  }
+
+  .square {
+    top: 50%;
+    left: 50%;
+    width: 8%;
+    height: 8%;
+    position: absolute;
+    border: 0.2rem solid #fff;
+    transform: translate(-50%, -50%);
+  }
+}
