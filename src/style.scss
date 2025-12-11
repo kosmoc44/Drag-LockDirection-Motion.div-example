@@ -25,6 +25,7 @@ main {
     transform: none;
     position: absolute;
     border-top: 0.1rem dashed #fff;
+    pointer-events: none;
   }
 
   .dashed-y {
@@ -34,6 +35,7 @@ main {
     transform: none;
     position: absolute;
     border-top: 0.1rem dashed #fff;
+    pointer-events: none;
   }
 
   .square {

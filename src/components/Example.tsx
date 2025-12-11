@@ -109,7 +109,7 @@ const Example = () => {
       if (isDragging) {
         document.body.style.cursor = 'grabbing';
 
-        window.addEventListener('pointermove', handlePointerMove);
+        window.addEventListener('pointermove', handlePointerMove, {passive: false});
         window.addEventListener('pointerup', handlePointerUp);
         window.addEventListener('pointercancel', handlePointerUp)
       } else {
